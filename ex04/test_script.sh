@@ -80,6 +80,7 @@ run_test "101010" "01" "0123456789ABCDEF" "2A" || all_tests_passed=false
 run_test "2A" "0123456789ABCDEF" "01" "101010" || all_tests_passed=false
 run_test "vn" "poneyvif" "01" "101010" || all_tests_passed=false
 run_test "101010" "01" "poneyvif" "vn" || all_tests_passed=false
+run_test "i" "i~pv" "gYhQ_zUVuv" "g" || all_tests_passed=false
 
 # Tests with invalid inputs
 run_test "42" "" "0123456789" "Error: Invalid base or conversion failed." || all_tests_passed=false
